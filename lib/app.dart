@@ -8,7 +8,7 @@ class CrudApp extends StatelessWidget {
     return MaterialApp(
       title: 'Crud App',
       theme: ThemeData(
-        inputDecorationTheme: InputDecorationTheme(
+        inputDecorationTheme: const InputDecorationTheme(
           border: OutlineInputBorder(
             borderSide: BorderSide(color: Colors.purple),
 
